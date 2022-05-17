@@ -1,0 +1,52 @@
+{
+  "employeeData": [
+    {
+      "id": "1",
+      "name": "Jannat",
+      "employeeID": 1,
+      "designation": "Software engineer",
+      "city": "Kolkata",
+      "contact": "6829456783"
+    },
+    {
+      "id": "2",
+      "name": "Junnatul",
+      "employeeID": 2,
+      "designation": "Software engineer trainee",
+      "city": "Delhi",
+      "contact": "6829450783"
+    },
+    {
+      "id": "3",
+      "name": "Nayem",
+      "employeeID": 3,
+      "designation": "Software test engineer",
+      "city": "Bangalore",
+      "contact": "6820496783"
+    },
+    {
+      "id": "4",
+      "name": "Tamanna",
+      "employeeID": 4,
+      "designation": "Software Test engineer trainee",
+      "city": "pune",
+      "contact": "6829406783"
+    },
+    {
+      "id": "5",
+      "name": "Mobo",
+      "employeeID": 6,
+      "designation": "Associate Project Manager ",
+      "city": "Jaipur",
+      "contact": "6820456703"
+    },
+    {
+      "name": "jannat",
+      "employeeID": "22",
+      "designation": "aefad",
+      "city": "gsg",
+      "contact": "erw",
+      "id": "LMQ151L"
+    }
+  ]
+}

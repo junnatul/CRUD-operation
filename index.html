@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Employee Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>EmployeeID</th>
+                <th>Designation</th>
+                <th>City</th>
+                <th>Contact</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+    <br/>
+    <form method="post" action="http://localhost:3000/employeeData">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" ><br/>
+
+        <label for="employeeID">EmployeeID:</label><br>
+        <input type="text" id="employeeID" name="employeeID" ><br/>
+
+        <label for="designation">Designation:</label><br>
+        <input type="text" id="designation" name="designation" ><br/>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" ><br/>
+
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact" ><br/>
+        <br/>
+        <button type="submit">Submit</button>
+      </form>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
