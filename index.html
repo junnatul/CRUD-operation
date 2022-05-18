@@ -21,23 +21,24 @@
         <tbody id="table_body"></tbody>
     </table>
     <br/>
-    <form method="post" action="http://localhost:3000/employeeData">
+    <form>
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" ><br/>
+        <input type="text" id="name" value="" name="name" ><br/>
 
         <label for="employeeID">EmployeeID:</label><br>
-        <input type="text" id="employeeID" name="employeeID" ><br/>
+        <input type="text" id="employeeID" value="" name="employeeID" ><br/>
 
         <label for="designation">Designation:</label><br>
-        <input type="text" id="designation" name="designation" ><br/>
+        <input type="text" id="designation" value="" name="designation" ><br/>
 
         <label for="city">City:</label><br>
-        <input type="text" id="city" name="city" ><br/>
+        <input type="text" id="city" value="" name="city" ><br/>
 
         <label for="contact">Contact:</label><br>
-        <input type="text" id="contact" name="contact" ><br/>
+        <input type="text" id="contact" value="" name="contact" ><br/>
         <br/>
-        <button type="submit">Submit</button>
+        <button id="submit_btn" onClick="create()" type="button">Submit</button>
+        <button id="edit_btn" onClick="edit()" type="button">Edit</button>
       </form>
     <script type="text/javascript" src="./script.js"></script>
 </body>

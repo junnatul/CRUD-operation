@@ -35,18 +35,10 @@
     {
       "id": "5",
       "name": "Mobo",
-      "employeeID": 6,
+      "employeeID": 5,
       "designation": "Associate Project Manager ",
       "city": "Jaipur",
       "contact": "6820456703"
-    },
-    {
-      "name": "jannat",
-      "employeeID": "22",
-      "designation": "aefad",
-      "city": "gsg",
-      "contact": "erw",
-      "id": "LMQ151L"
     }
   ]
 }
