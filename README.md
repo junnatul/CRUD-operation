@@ -1,1 +1,1 @@
-# CURD-opertion
+# CURD-operations
