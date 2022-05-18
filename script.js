@@ -1,29 +1,3 @@
-// let tbody = document.getElementById('table_body');
-// let global = []
-// function render(){
-//   fetch('./db.json')
-// .then(response => response.json())
-// .then(data => {
-//   global = data.employeeData
-//   global.map((item,index) => {
-//     let newRow = `<tr>
-//                     <td>${item.name}</td>
-//                     <td>${item.employeeID}</td>
-//                     <td>${item.designation}</td>
-//                     <td>${item.city}</td>
-//                     <td>${item.contact}</td>
-//                     <td><button type="button">Edit</button>&nbsp<button onClick=deleteData(${index}) type="button">Delete</button></td>
-//                 </tr>`;
-//     document.getElementById('table_body').innerHTML += newRow;
-//   })
-// })
-// }
-// render()
-
-//   function deleteData(id){
-//     console.log(id)
-//     global.splice(id, 1);
-//   }
 let tbody = document.getElementById("table_body");
 let global = [];
 function getDataFromJson() {
